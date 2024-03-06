@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Bar</title>
+    <style>
+        body{
+            margin: 0px;
+            color: white;
+
+        }
+        h3{
+            font-size: 30px;
+            padding: 0px 15px;
+        }
+        nav{
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        li{
+            list-style: none;
+            display: inline-block;
+            padding-right:25px ;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+        a:hover{
+            border-bottom: 2px solid white;
+        }
+    </style>
+  
+</head>
+<body>
+    <nav>
+        <h3>NAVBAR</h3>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Others</a></li>
+        </ul>
+    </nav>
+
+</body>
+</html>
